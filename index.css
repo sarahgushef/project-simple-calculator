@@ -1,0 +1,36 @@
+.calculator {
+  width: 300px;
+  margin: 100px auto;
+}
+
+.calculator-screen {
+  width: 300px;
+  height: 70px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.operator {
+  color: #337cac;
+}
+
+.calculator-keys {
+  width: 305px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.calculator-keys button {
+  font-size: 20px;
+}
+
+.equal-sign {
+  grid-area: 2 / 4 / 6;
+  background-color: #2e86c0;
+}
+
+.all-clear {
+  background-color: #f0595f;
+}
